@@ -1,0 +1,25 @@
+﻿using MediatR;
+using System.Net.Http;
+using YodleeIntegration.Application.Request;
+using YodleeIntegration.Domain.Model.Authorizations;
+using YodleeIntegration.Domain.Model.Configurations;
+
+namespace YodleeIntegration.Application.Configs.GetSubscribedNotifications
+{
+    public class GetSubscribedNotificationsQuery : IRequest<HttpResponseMessage>
+    {
+        public ConfigsRequest ConfigsRequest { get; }
+
+        public YodleeConfiguration YodleeConfiguration { get; }
+
+        public YodleeAccessToken YodleeAccessToken { get; set; }
+        public GetSubscribedNotificationsQuery(ConfigsRequest configsRequest,
+            YodleeConfiguration yodleeConfiguration,
+            YodleeAccessToken yodleeAccessToken)
+        {
+            ConfigsRequest = configsRequest;
+            YodleeConfiguration = yodleeConfiguration;
+            YodleeAccessToken = yodleeAccessToken;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="YodleeIntegration.Domain.Model.Authorizations.YodleeAccessToken">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Authorizations\YodleeAccessToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YodleeIntegration.Domain.Model.Authorizations.YodleeApiKey">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAAAQAAAgAAAAAAAAA=</HashCode>
+      <FileName>Model\Authorizations\YodleeApiKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YodleeIntegration.Domain.Model.Configurations.YodleeConfiguration">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAQAhgAAAAAAAAAAAAAACQAAIAAAEAA=</HashCode>
+      <FileName>Model\Configurations\YodleeConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YodleeIntegration.Domain.Model.Entity.Entity">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Entity\Entity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="YodleeIntegration.Domain.Model.Entity.IEntity" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Entity\IEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

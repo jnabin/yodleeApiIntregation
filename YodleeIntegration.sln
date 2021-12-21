@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Api", "YodleeIntegration.Api\YodleeIntegration.Api.csproj", "{B93407D4-6BDD-42CE-9404-D3810769CF8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Application", "YodleeIntegration.Application\YodleeIntegration.Application.csproj", "{68FEB149-6DFA-4532-91A1-BB713907C0A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Common", "YodleeIntegration.Common\YodleeIntegration.Common.csproj", "{079D8B52-A773-4F5B-98F4-05193816C43B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Domain", "YodleeIntegration.Domain\YodleeIntegration.Domain.csproj", "{5CE54C72-836A-4135-8E2D-A9D8E75A7A9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Persistence", "YodleeIntegration.Persistence\YodleeIntegration.Persistence.csproj", "{6B10EBC1-1BCB-4C5F-A794-596FDB1455AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Api.Test", "YodleeIntegration.Api.Test\YodleeIntegration.Api.Test.csproj", "{910FEBD5-51EE-4BE7-ADD6-82C32A2C67E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Persistence.Test", "YodleeIntegration.Persistence.Test\YodleeIntegration.Persistence.Test.csproj", "{1A78C70D-F635-4097-AB0D-6E69B3C4C6FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YodleeIntegration.Application.Test", "YodleeIntegration.Application.Test\YodleeIntegration.Application.Test.csproj", "{7A03D8EB-ED32-40A5-9B5B-D710217D15A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23E4A051-D1C6-4F0E-9F1D-A7233FCD1CF6}"
+	ProjectSection(SolutionItems) = preProject
+		yodlee-integration.runsettings = yodlee-integration.runsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93407D4-6BDD-42CE-9404-D3810769CF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93407D4-6BDD-42CE-9404-D3810769CF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93407D4-6BDD-42CE-9404-D3810769CF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93407D4-6BDD-42CE-9404-D3810769CF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FEB149-6DFA-4532-91A1-BB713907C0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FEB149-6DFA-4532-91A1-BB713907C0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FEB149-6DFA-4532-91A1-BB713907C0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FEB149-6DFA-4532-91A1-BB713907C0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079D8B52-A773-4F5B-98F4-05193816C43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079D8B52-A773-4F5B-98F4-05193816C43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079D8B52-A773-4F5B-98F4-05193816C43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079D8B52-A773-4F5B-98F4-05193816C43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE54C72-836A-4135-8E2D-A9D8E75A7A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE54C72-836A-4135-8E2D-A9D8E75A7A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE54C72-836A-4135-8E2D-A9D8E75A7A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE54C72-836A-4135-8E2D-A9D8E75A7A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B10EBC1-1BCB-4C5F-A794-596FDB1455AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B10EBC1-1BCB-4C5F-A794-596FDB1455AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B10EBC1-1BCB-4C5F-A794-596FDB1455AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B10EBC1-1BCB-4C5F-A794-596FDB1455AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910FEBD5-51EE-4BE7-ADD6-82C32A2C67E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910FEBD5-51EE-4BE7-ADD6-82C32A2C67E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910FEBD5-51EE-4BE7-ADD6-82C32A2C67E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910FEBD5-51EE-4BE7-ADD6-82C32A2C67E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A78C70D-F635-4097-AB0D-6E69B3C4C6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A78C70D-F635-4097-AB0D-6E69B3C4C6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A78C70D-F635-4097-AB0D-6E69B3C4C6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A78C70D-F635-4097-AB0D-6E69B3C4C6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A03D8EB-ED32-40A5-9B5B-D710217D15A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A03D8EB-ED32-40A5-9B5B-D710217D15A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A03D8EB-ED32-40A5-9B5B-D710217D15A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A03D8EB-ED32-40A5-9B5B-D710217D15A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59528D5E-477F-412B-A9FB-6C849321DD11}
+	EndGlobalSection
+EndGlobal
